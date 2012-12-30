@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{84225FAC-BC89-4D68-9DD2-095ABF946BDA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Singly_Test</RootNamespace>
+    <AssemblyName>Singly_Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Singly_Test.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Singly_Test.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\yb\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\yb\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="css\yb\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="css\yb\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="css\yb\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\yb\images\ui-bg_gloss-wave_55_5786dc_500x100.png" />
+    <Content Include="css\yb\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="css\yb\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="css\yb\images\ui-icons_2061d9_256x240.png" />
+    <Content Include="css\yb\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\yb\images\ui-icons_658dd7_256x240.png" />
+    <Content Include="css\yb\images\ui-icons_7d9cd5_256x240.png" />
+    <Content Include="css\yb\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\yb\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="css\yb\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="css\yb\jquery-ui-1.8.23.custom.css" />
+    <Content Include="css\main.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\bg-scrollbar-thumb-x.png" />
+    <Content Include="images\bg-scrollbar-thumb-y.png" />
+    <Content Include="images\bg-scrollbar-track-x.png" />
+    <Content Include="images\bg-scrollbar-track-y.png" />
+    <Content Include="images\bg-scrollbar-trackend-x.png" />
+    <Content Include="images\bg-scrollbar-trackend-y.png" />
+    <Content Include="images\bg_picture.png" />
+    <Content Include="images\socialmedia\aim.png" />
+    <Content Include="images\socialmedia\ask.png" />
+    <Content Include="images\socialmedia\bebo.png" />
+    <Content Include="images\socialmedia\betvibes.png" />
+    <Content Include="images\socialmedia\blinklist.png" />
+    <Content Include="images\socialmedia\blogger.png" />
+    <Content Include="images\socialmedia\buzz.png" />
+    <Content Include="images\socialmedia\delicious.png" />
+    <Content Include="images\socialmedia\deviantart.png" />
+    <Content Include="images\socialmedia\digg.png" />
+    <Content Include="images\socialmedia\diigo.png" />
+    <Content Include="images\socialmedia\everynote.png" />
+    <Content Include="images\socialmedia\facebook.png" />
+    <Content Include="images\socialmedia\flickr.png" />
+    <Content Include="images\socialmedia\friendfeed.png" />
+    <Content Include="images\socialmedia\friendster.png" />
+    <Content Include="images\socialmedia\furl.png" />
+    <Content Include="images\socialmedia\google.png" />
+    <Content Include="images\socialmedia\lastfm.png" />
+    <Content Include="images\socialmedia\linkedin.png" />
+    <Content Include="images\socialmedia\livejournal.png" />
+    <Content Include="images\socialmedia\mixx.png" />
+    <Content Include="images\socialmedia\myspace.png" />
+    <Content Include="images\socialmedia\newsvine.png" />
+    <Content Include="images\socialmedia\orkut.png" />
+    <Content Include="images\socialmedia\plaxo.png" />
+    <Content Include="images\socialmedia\plurk.png" />
+    <Content Include="images\socialmedia\posterous.png" />
+    <Content Include="images\socialmedia\reddit.png" />
+    <Content Include="images\socialmedia\rss.png" />
+    <Content Include="images\socialmedia\shoutwire.png" />
+    <Content Include="images\socialmedia\spurl.png" />
+    <Content Include="images\socialmedia\squidoo.png" />
+    <Content Include="images\socialmedia\stumbleupon.png" />
+    <Content Include="images\socialmedia\technorati.png" />
+    <Content Include="images\socialmedia\tumblr.png" />
+    <Content Include="images\socialmedia\twitter.png" />
+    <Content Include="images\socialmedia\vimeo.png" />
+    <Content Include="images\socialmedia\wordpress.png" />
+    <Content Include="images\socialmedia\xanga.png" />
+    <Content Include="images\socialmedia\yahoo.png" />
+    <Content Include="images\socialmedia\youtube.png" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-ui-1.8.22.custom.min.js" />
+    <Content Include="js\jquery.tinyscrollbar.js" />
+    <Content Include="js\jquery.tinyscrollbar.min.js" />
+    <Content Include="js\singly-data.js" />
+    <Content Include="js\singly-system.js" />
+    <Content Include="js\singly-ui.js" />
+    <Content Include="settings\cs-setting.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="settings\Web.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>55000</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://test.singly.com</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
